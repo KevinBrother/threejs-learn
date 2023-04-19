@@ -1,0 +1,14 @@
+{
+  "name": "threejs-learn",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "three": "^0.151.3"
+  }
+}
