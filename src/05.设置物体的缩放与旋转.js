@@ -54,6 +54,9 @@ function render() {
   if (cube.position.x > 5) {
     cube.position.x = 0;
   }
+
+  cube.rotation.x += 0.01;
+
   // 渲染
   renderer.render(scene, camera);
   // 递归调用
